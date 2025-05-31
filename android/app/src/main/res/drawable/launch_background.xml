@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:gravity="fill" android:src="@drawable/background"/>
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/splash"/>
+    </item>
+</layer-list> -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/splash_color" />
+
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/splash_image" />
+    </item>
+
+    <item>
+        <layer android:gravity="center|bottom">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TaTe World"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:layout_marginBottom="50dp" />
+        </layer>
+    </item>
+</layer-list>

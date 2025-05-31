@@ -1,0 +1,1 @@
+ D:\\PTUDW\\project\\readnovel\\.dart_tool\\flutter_build\\894183b5d085db13556894f3d8294fe5\\native_assets.yaml: 
